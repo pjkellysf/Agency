@@ -1,2 +1,2 @@
 # Single-Page-Website
-A single page website for an agency. (in progress)
+A single page website for an agency using Bootstrap. (In progress.)
