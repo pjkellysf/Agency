@@ -61,9 +61,57 @@
     padding-left: 15px;
 }
 
-/* RESPONSIVE IMAGE CLASS*/
+/* RESPONSIVE IMAGE CLASS */
 
 .img-resposive {
     max-width: 100%
         height: auto;
 }
+
+/* BOX MODEL CLASSES */
+
+.text-center {
+    text-align: center;   
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+* *:before *:after {
+    box-sizing: border-box;
+}
+
+.intro-text {
+    padding-top: 200px;
+    padding-bottom: 160px;
+}
+
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.portfolio-item {
+    margin-bottom: 50px;    
+}
+
+.timeline {
+    list-style: none;
+    padding: 0;
+}
+
+.team-member {
+    margin-bottom: 50px;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 30px;
